@@ -39,6 +39,9 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .csrf().disable()
                 .formLogin().disable();
+           
+           
+           System.out.println("Demo");
     }
 
     /*@Bean
